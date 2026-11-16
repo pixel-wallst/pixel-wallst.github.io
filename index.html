@@ -1,10 +1,11 @@
 <!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>像素華爾街｜Pixel Wall St.｜美股盤後報告</title><style>
-@font-face{font-family:Cubic11;src:url(Cubic_11.woff2) format('woff2')}
+@font-face{font-family:Cubic11;src:url(Cubic_11.woff2) format('woff2');font-display:swap}
 :root{--bg:#0e1018;--panel:#151826;--line:#808792;--gold:#ffcc4d;--txt:#ecebe4;--mut:#9aa0c0;--up:#ff5a4f;--dn:#3d9bff}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;line-height:1.6;
  background-image:radial-gradient(#ffffff08 1.5px,transparent 1.5px);background-size:18px 18px}
 a{color:var(--gold)}.wrap{max-width:920px;margin:0 auto;padding:24px 16px 60px}
-.px,h1,h2,.tag,.big{font-family:Cubic11,'Noto Sans TC',sans-serif}
+.px,h1,h2,.tag,.big,.kpi,th,td,.mrow{font-family:Cubic11,'Noto Sans TC',sans-serif}
+td.why,.why{font-family:'Noto Sans TC',sans-serif}
 header{display:flex;justify-content:space-between;align-items:center;border-bottom:4px solid var(--gold);padding-bottom:10px}
 .tag{background:var(--gold);color:#14172e;padding:2px 14px;font-size:22px;box-shadow:0 -3px 0 0 var(--gold),0 3px 0 0 var(--gold),-3px 0 0 0 var(--gold),3px 0 0 0 var(--gold)}
 .brand{color:var(--gold);font-size:18px}
@@ -13,7 +14,7 @@ h1{color:var(--gold);font-size:34px;margin:18px 0 4px;font-family:'Noto Sans TC'
 h2{color:var(--gold);font-size:22px;margin:34px 0 10px;border-left:6px solid var(--gold);padding-left:10px}
 .box{background:var(--panel);border:3px double var(--line);padding:14px 16px;margin:10px 0}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
-.kpi{background:var(--panel);border:2px solid #2a2e3a;padding:10px 12px}.kpi .n{color:var(--mut);font-size:14px}.kpi .v{font-size:22px;font-family:Cubic11,sans-serif}
+.kpi{background:var(--panel);border:2px solid #2a2e3a;padding:10px 12px}.kpi .n{color:var(--mut);font-size:14px}.kpi .v{font-size:26px;line-height:1.3}.kpi .v .d{font-size:22px;margin-left:6px}
 .kpi .s{font-size:14px}
 table{width:100%;border-collapse:collapse;font-size:15px}th,td{padding:6px 8px;border-bottom:1px solid #2a2e3a;text-align:right}th:first-child,td:first-child{text-align:left}
 th{color:var(--mut);font-weight:500}
